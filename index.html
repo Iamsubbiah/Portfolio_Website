@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subbiah C - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Stars background -->
+        <div class="stars">
+            <!-- First layer of stars -->
+            <div class="star star-1" style="top: 5%; left: 10%"></div>
+            <div class="star star-2" style="top: 15%; left: 25%"></div>
+            <div class="star star-3" style="top: 8%; left: 45%"></div>
+            <div class="star star-1" style="top: 12%; left: 65%"></div>
+            <div class="star star-2" style="top: 18%; left: 85%"></div>
+            <div class="star star-3" style="top: 25%; left: 15%"></div>
+            
+            <!-- Second layer -->
+            <div class="star star-2" style="top: 35%; left: 8%"></div>
+            <div class="star star-1" style="top: 42%; left: 35%"></div>
+            <div class="star star-3" style="top: 38%; left: 55%"></div>
+            <div class="star star-2" style="top: 45%; left: 75%"></div>
+            <div class="star star-1" style="top: 48%; left: 92%"></div>
+            
+            <!-- Third layer -->
+            <div class="star star-3" style="top: 55%; left: 18%"></div>
+            <div class="star star-1" style="top: 62%; left: 38%"></div>
+            <div class="star star-2" style="top: 58%; left: 62%"></div>
+            <div class="star star-3" style="top: 65%; left: 82%"></div>
+            
+            <!-- Fourth layer -->
+            <div class="star star-2" style="top: 75%; left: 12%"></div>
+            <div class="star star-1" style="top: 78%; left: 28%"></div>
+            <div class="star star-3" style="top: 82%; left: 45%"></div>
+            <div class="star star-2" style="top: 85%; left: 68%"></div>
+            <div class="star star-1" style="top: 88%; left: 88%"></div>
+            
+            <!-- Bottom layer -->
+            <div class="star star-3" style="top: 92%; left: 15%"></div>
+            <div class="star star-2" style="top: 95%; left: 35%"></div>
+            <div class="star star-1" style="top: 94%; left: 55%"></div>
+            <div class="star star-3" style="top: 96%; left: 75%"></div>
+            <div class="star star-2" style="top: 98%; left: 95%"></div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="glass-card">
+            <div class="logo">
+                <img src="images/python.svg" alt="Logo" class="logo-img">
+                <span>Subbiah C</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Header Section -->
+        <header class="glass-card">
+            <div class="profile-section">
+                <div class="profile-container">
+                    <img src="profile_pic.jpg" alt="Profile Picture" class="profile-img">
+                </div>
+                <h1>Subbiah C</h1>
+                <a href="mailto:iamsubbiahc@gmail.com" class="email-link">
+                    <i class="fas fa-envelope mail-icon"></i>
+                    <span class="email">iamsubbiahc@gmail.com</span>
+                </a>
+                <h2>AIML Developer</h2>
+                <p>CSE student at SRM IST</p>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="glass-card">
+            <h2>About Me</h2>
+            <p>Strong expertise in AI, ML, and DL with hands-on experience in real-world projects. Python expert with a passion for creating innovative solutions.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="glass-card">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Stock Fundamental Analysis</h3>
+                    <p>Advanced analysis system for stock market predictions</p>
+                </div>
+                <div class="project-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Personal Therapist Chatbot</h3>
+                    <p>AI-powered mental health support system</p>
+                </div>
+                <div class="project-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Cancer & Diabetes Prediction</h3>
+                    <p>ML-based disease prediction system</p>
+                </div>
+                <div class="project-card">
+                    <div class="face-scan-container">
+                        <!-- Option 1: Modern scanning frame -->
+                        <div class="face-scan-option active" id="scan1">
+                            <i class="fas fa-user-circle base-icon"></i>
+                            <div class="scan-line"></div>
+                            <div class="corner-frames">
+                                <span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        
+                        <!-- Option 2: Tech circles -->
+                        <div class="face-scan-option" id="scan2">
+                            <i class="fas fa-user base-icon"></i>
+                            <div class="tech-circles"></div>
+                            <div class="dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        
+                        <!-- Option 3: Grid scan -->
+                        <div class="face-scan-option" id="scan3">
+                            <i class="fas fa-user base-icon"></i>
+                            <div class="grid-overlay"></div>
+                            <div class="scan-box"></div>
+                        </div>
+                    </div>
+                    <h3>Face Recognition System</h3>
+                    <p>Advanced facial recognition technology</p>
+                </div>
+                <div class="project-card">
+                    <i class="fas fa-smile"></i>
+                    <h3>Emotion Detection</h3>
+                    <p>Real-time facial emotion recognition using deep learning</p>
+                </div>
+                <div class="project-card">
+                    <i class="fas fa-image"></i>
+                    <h3>Image Classification</h3>
+                    <p>Multi-class image classification using CNN architectures</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            
+            <div class="glass-card skills-card languages">
+                <h3>Programming Languages</h3>
+                <ul class="skills-list">
+                    <li style="--delay: 1"><img src="images/html5.svg" alt="HTML"> HTML</li>
+                    <li style="--delay: 2"><img src="images/css3.svg" alt="CSS"> CSS</li>
+                    <li style="--delay: 3"><img src="images/javascript.svg" alt="JavaScript"> JavaScript</li>
+                    <li style="--delay: 4"><img src="images/python.svg" alt="Python"> Python</li>
+                    <li style="--delay: 5"><img src="images/c.svg" alt="C"> C</li>
+                    <li style="--delay: 6"><img src="images/cpp.svg" alt="C++"> C++</li>
+                    <li style="--delay: 7"><img src="images/java.svg" alt="Java"> Java</li>
+                    <li style="--delay: 8"><img src="images/sql.svg" alt="SQL"> SQL</li>
+                </ul>
+            </div>
+
+            <div class="glass-card skills-card frameworks">
+                <h3>Frameworks & Libraries</h3>
+                <ul class="skills-list">
+                    <li style="--delay: 1"><img src="images/tensorflow.svg" alt="TensorFlow"> TensorFlow</li>
+                    <li style="--delay: 2"><img src="images/pytorch.svg" alt="PyTorch"> PyTorch</li>
+                    <li style="--delay: 3"><img src="images/keras.svg" alt="Keras"> Keras</li>
+                    <li style="--delay: 4"><img src="images/scikit-learn.svg" alt="Scikit-learn"> Scikit-learn</li>
+                    <li style="--delay: 5"><img src="images/opencv.svg" alt="OpenCV"> OpenCV</li>
+                    <li style="--delay: 6"><img src="images/xgboost.svg" alt="XGBoost"> XGBoost</li>
+                    <li style="--delay: 7"><img src="images/lightgbm.svg" alt="LightGBM"> LightGBM</li>
+                    <li style="--delay: 8"><img src="images/fastai.svg" alt="FastAI"> FastAI</li>
+                    <li style="--delay: 9"><img src="images/pyspark.svg" alt="PySpark"> PySpark</li>
+                    <li style="--delay: 10"><img src="images/numpy.svg" alt="NumPy"> NumPy</li>
+                    <li style="--delay: 11"><img src="images/pandas.svg" alt="Pandas"> Pandas</li>
+                    <li style="--delay: 12"><img src="images/matplotlib.svg" alt="Matplotlib"> Matplotlib</li>
+                    <li style="--delay: 13"><img src="images/seaborn.svg" alt="Seaborn"> Seaborn</li>
+                    <li style="--delay: 14"><img src="images/plotly.svg" alt="Plotly"> Plotly</li>
+                    <li style="--delay: 15"><img src="images/beautifulsoup.svg" alt="Beautiful Soup"> Beautiful Soup</li>
+                    <li style="--delay: 16"><img src="images/nltk.svg" alt="NLTK"> NLTK</li>
+                    <li style="--delay: 17"><img src="images/spacy.svg" alt="spaCy"> spaCy</li>
+                    <li style="--delay: 18"><img src="images/torchaudio.svg" alt="TorchAudio"> TorchAudio</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <footer id="contact" class="glass-card">
+            <h2>Contact Me</h2>
+            <p>Let's connect and create something amazing together!</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/subbiah-c-49ab65313" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Iamsubbiah" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="mailto:iamsubbiahc@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+    <style>
+    /* Base styles for all options */
+    .face-scan-container {
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        margin: 1.5rem auto;
+    }
+
+    .face-scan-option {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    .face-scan-option.active {
+        opacity: 1;
+    }
+
+    .base-icon {
+        position: relative;
+        font-size: 2.5rem;
+        color: white;
+        z-index: 1;
+    }
+
+    /* Option 1: Modern scanning frame */
+    .corner-frames span {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border: 2px solid var(--accent-color-2);
+    }
+
+    .corner-frames span:nth-child(1) { top: -5px; left: -5px; border-right: 0; border-bottom: 0; }
+    .corner-frames span:nth-child(2) { top: -5px; right: -5px; border-left: 0; border-bottom: 0; }
+    .corner-frames span:nth-child(3) { bottom: -5px; left: -5px; border-right: 0; border-top: 0; }
+    .corner-frames span:nth-child(4) { bottom: -5px; right: -5px; border-left: 0; border-top: 0; }
+
+    .scan-line {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, var(--accent-color-2), transparent);
+        animation: scanMove 2s linear infinite;
+    }
+
+    /* Option 2: Tech circles */
+    .tech-circles {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        border: 2px solid var(--accent-color-2);
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+    }
+
+    .dots span {
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        background: var(--accent-color-2);
+        border-radius: 50%;
+        animation: rotate 3s linear infinite;
+    }
+
+    .dots span:nth-child(1) { animation-delay: 0s; }
+    .dots span:nth-child(2) { animation-delay: 1s; }
+    .dots span:nth-child(3) { animation-delay: 2s; }
+
+    /* Option 3: Grid scan */
+    .grid-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: 
+            linear-gradient(90deg, transparent 95%, var(--accent-color-2) 95%),
+            linear-gradient(transparent 95%, var(--accent-color-2) 95%);
+        background-size: 10px 10px;
+        opacity: 0.3;
+    }
+
+    .scan-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 80%;
+        border: 1px solid var(--accent-color-2);
+        animation: scanBox 3s infinite;
+    }
+
+    /* Animations */
+    @keyframes scanMove {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(100%); }
+        100% { transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+        0% { transform: translate(-50%, -50%) scale(0.8); opacity: 0.3; }
+        50% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.7; }
+        100% { transform: translate(-50%, -50%) scale(0.8); opacity: 0.3; }
+    }
+
+    @keyframes rotate {
+        0% { transform: rotate(0deg) translate(20px) rotate(0deg); }
+        100% { transform: rotate(360deg) translate(20px) rotate(-360deg); }
+    }
+
+    @keyframes scanBox {
+        0% { transform: translate(-50%, -50%) scale(0.8); opacity: 0.5; }
+        50% { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
+        100% { transform: translate(-50%, -50%) scale(0.8); opacity: 0.5; }
+    }
+
+    /* Auto-switch animation */
+    .face-scan-option {
+        animation: optionSwitch 9s infinite;
+        opacity: 0;
+    }
+
+    .face-scan-option:nth-child(1) { animation-delay: 0s; }
+    .face-scan-option:nth-child(2) { animation-delay: 3s; }
+    .face-scan-option:nth-child(3) { animation-delay: 6s; }
+
+    @keyframes optionSwitch {
+        0%, 25% { opacity: 1; }
+        33%, 100% { opacity: 0; }
+    }
+
+    .email-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+        margin: -0.5rem 0 1rem;
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        transition: var(--transition);
+        background: rgba(255, 255, 255, 0.03);
+    }
+
+    .email-link:hover {
+        background: rgba(255, 255, 255, 0.05);
+        transform: translateY(-2px);
+    }
+
+    .email {
+        background: linear-gradient(45deg, var(--accent-color), var(--accent-color-2));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1rem;
+    }
+
+    .mail-icon {
+        font-size: 0.9rem;
+        color: var(--accent-color-2);
+        transition: transform 0.3s ease;
+    }
+
+    .email-link:hover .mail-icon {
+        animation: mailWiggle 0.3s ease;
+    }
+
+    @keyframes mailWiggle {
+        0%, 100% { transform: rotate(0); }
+        25% { transform: rotate(-10deg); }
+        75% { transform: rotate(10deg); }
+    }
+    </style>
+</body>
+</html>                         
